@@ -1,0 +1,4 @@
+1 OBJS=*.o
+2 ODIR=obj
+3 $(ROOT_DIR)/$(BIN_DIR)/$(BIN):$(ODIR)/$(OBJS)
+4     $(CC) -o $@ $^
